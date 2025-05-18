@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Samkit's Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body class="grid container">
+		<header class="header glass-effect flex">
+			<img
+				class="img-container"
+				src="assets/Profile_pic.png"
+				alt="Profile picture"
+			/>
+			<span>
+				<h2>Samkit Jain</h2>
+				<p class="role">Web Developer</p>
+			</span>
+		</header>
+		<aside class="sidebar glass-effect">
+			<ul class="flex nav">
+				<li>
+					<a
+						href="#aboutme"
+						class="flex links"
+						data-tooltip="About Me"
+						><i class="fa-solid fa-user"></i
+					></a>
+				</li>
+				<li>
+					<a href="#resume" class="flex links" data-tooltip="Resume"
+						><i class="fa-solid fa-file"></i
+					></a>
+				</li>
+				<li>
+					<a href="#skills" class="flex links" data-tooltip="Skills"
+						><i class="fa-solid fa-code"></i
+					></a>
+				</li>
+				<li>
+					<a
+						href="#projects"
+						class="flex links"
+						data-tooltip="Projects"
+						><i class="fa-solid fa-code-branch"></i
+					></a>
+				</li>
+				<li>
+					<a
+						href="#contactme"
+						class="flex links"
+						data-tooltip="Contact Me"
+						><i class="fa-solid fa-address-card"></i
+					></a>
+				</li>
+			</ul>
+		</aside>
+
+		<main class="main-content glass-effect">
+			<section id="aboutme">
+				<h2>About Me <span></span></h2>
+				<div class="content">
+					<br />
+					<h3><i class="fa-solid fa-splotch"></i> Who am I?</h3>
+					<p>
+						<span class="innerPara"
+							>I'm a diploma student in Information Technology
+							with a strong interest in web development and
+							programming. I enjoy learning new technologies and
+							building creative digital solutions. I’ve worked
+							with languages like HTML, CSS, JavaScript, Python,
+							PHP, C, and have knowledge of databases like MySQL
+							and PL/SQL.</span
+						>
+					</p>
+
+					<br />
+
+					<h3><i class="fa-solid fa-cube"></i> What Do I Aim For?</h3>
+					<p>
+						<span class="innerPara"
+							>I’m aiming to become a full-stack developer or
+							software engineer. I love building things from
+							scratch and improving them step by step. My goal is
+							to work on meaningful tech projects and keep
+							improving my skills.<br /><br />Apart from tech, I
+							enjoy watching coding tutorials, listening to music,
+							and exploring new tools that help me learn
+							faster.</span
+						>
+					</p>
+				</div>
+			</section>
+			<section id="resume">
+				<h2>Resume<span></span></h2>
+				<div class="content">
+					<br />
+					<h3><i class="fa-solid fa-book"></i> Education</h3>
+					<p style="text-align: left">
+						<b>Diploma in Information Technology</b>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023
+						– Present (Expected completion: 2026) <br />
+					</p>
+					<dl>
+						<dt class="innerPara">● LJ Polytechnic</dt>
+						<dd class="innerPara">
+							Diploma in Information Technology, with academic
+							focus on software development, backend systems, and
+							web technologies.
+						</dd>
+					</dl>
+					<br />
+					<h3><i class="fa-solid fa-newspaper"></i> Activities</h3>
+					<ul>
+						<li class="innerPara">
+							LJ Innovation Village: Leaded the team of 7 People.
+						</li>
+						<li class="innerPara">
+							Mentor(Moderator) for 1 Year of 13 Colleagues.
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="skills">
+				<h2>
+					<i class="fa-solid fa-chart-pie"></i> My Skills
+					<span></span>
+				</h2>
+				<div class="content flex">
+					<div class="skill-card mouseAni flex glass-effect">
+						<i class="fab fa-html5"></i> HTML
+					</div>
+					<div class="skill-card mouseAni flex glass-effect">
+						<i class="fab fa-css3-alt"></i> CSS
+					</div>
+					<div class="skill-card mouseAni flex glass-effect">
+						<i class="fab fa-js"></i> JavaScript
+					</div>
+					<div class="skill-card mouseAni flex glass-effect">
+						<i class="fab fa-php"></i> PHP
+					</div>
+					<div class="skill-card mouseAni flex glass-effect">
+						<i class="fas fa-database"></i> SQL
+					</div>
+					<div class="skill-card mouseAni flex glass-effect">
+						<i class="fa-solid fa-code-compare"></i> PL/SQL
+					</div>
+					<div class="skill-card mouseAni flex glass-effect">
+						<i class="fab fa-python"></i> Python
+					</div>
+				</div>
+			</section>
+			<section id="projects">
+				<h2>Projects <span></span></h2>
+				<br />
+				<div class="projects-grid">
+					<div class="project-card mouseAni">
+						<h3>HangMan Game</h3>
+						<p>
+							Hangman is a classic word-guessing game where
+							players try to figure out a hidden word by guessing
+							one letter at a time. Each wrong guess brings the
+							stick figure closer to being "hanged," making it a
+							fun mix of logic and challenge.
+						</p>
+						<div class="project-links">
+							<a
+								href="https://therealsamkit.github.io/HangMan_Game/"
+								class="project-link"
+								><i class="fas fa-external-link-alt"></i>
+								Link</a
+							>
+						</div>
+					</div>
+					<div class="project-card mouseAni">
+						<h3>Sphatik</h3>
+						<p>
+							Sphatik is a unified platform for freelancing,
+							online learning, local services, and delivery jobs —
+							all with verified users and secure access. <br />
+							It connects people to work, learn, and hire in one
+							place.
+						</p>
+
+						<div class="project-links">
+							<a
+								href="https://github.com/Mann-Makhecha/sphatikv2"
+								class="project-link"
+								><i class="fas fa-external-link-alt"></i> View
+								Source</a
+							>
+						</div>
+					</div>
+					<div class="project-card mouseAni">
+						<h3>Infinite Tic Tac Toe</h3>
+						<p>
+							Infinite Tic Tac Toe is a twist on the classic game
+							where after every 5 moves, the oldest move gets
+							removed. This keeps the board size fixed but adds a
+							dynamic and strategic challenge for both players.
+						</p>
+
+						<div class="project-links">
+							<a
+								href="https://therealsamkit.github.io/Tic_Tac_Toe/"
+								class="project-link"
+								><i class="fas fa-external-link-alt"></i>
+								Link</a
+							>
+						</div>
+					</div>
+					<div class="project-card mouseAni">
+						<h3>Video Player</h3>
+						<p>
+							The Video Player is built using Python’s Tkinter
+							library and VLC module to play various video
+							formats. It features a simple GUI with basic
+							playback controls like play, pause, stop, and volume
+							adjustment.
+						</p>
+
+						<div class="project-links">
+							<a
+								href="https://github.com/TheRealSamkit/VideoPlayer"
+								class="project-link"
+								><i class="fas fa-external-link-alt"></i>
+								Repository</a
+							>
+						</div>
+					</div>
+					<div class="project-card mouseAni">
+						<h3>Password Strength Checker</h3>
+						<p>
+							The Password Strength Checker is a web tool built
+							with HTML, CSS, and JavaScript that analyzes
+							password strength in real time. <br />
+							It checks for length, symbols, numbers, and
+							uppercase letters to guide users toward stronger
+							passwords.
+						</p>
+
+						<div class="project-links">
+							<a
+								href="https://therealsamkit.github.io/password-Strength-Checker/"
+								class="project-link"
+								><i class="fas fa-external-link-alt"></i>
+								Link</a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contactme">
+				<h2>Contact Me<span></span></h2>
+				<div class="content">
+					<br />
+					<div id="contactForm" class="contact-form">
+						<label for="name">Name</label>
+						<input
+							type="text"
+							id="name"
+							name="name"
+							placeholder="Your full name"
+							required
+						/>
+
+						<label for="email">Email</label>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							placeholder="Your email address"
+							required
+						/>
+
+						<label for="message">Message</label>
+						<textarea
+							id="message"
+							name="message"
+							rows="5"
+							placeholder="Your message here"
+							required
+						></textarea>
+
+						<button
+							type="submit"
+							onclick="alert('This Feature will be available soon...!')"
+						>
+							Send Message
+						</button>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="glass-effect footer flex">
+			<h3>&copy;Samkit Jain, 2025</h3>
+		</footer>
+		<script src="main.js"></script>
+	</body>
+</html>
