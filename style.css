@@ -432,6 +432,30 @@ section h2:hover span {
 	border-color: var(--primary-accent);
 }
 
+.main-content::-webkit-scrollbar,
+section::-webkit-scrollbar {
+	width: 8px;
+}
+
+.main-content::-webkit-scrollbar-track,
+section::-webkit-scrollbar-track {
+	background: var(--secondary-bg);
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.main-content::-webkit-scrollbar-thumb,
+section::-webkit-scrollbar-thumb {
+	background: var(--tertiary-bg);
+	border-radius: 5px;
+	border: 1px solid var(--border-color);
+}
+
+.main-content::-webkit-scrollbar-thumb:hover,
+section::-webkit-scrollbar-thumb:hover {
+	background: var(--primary-accent-hover);
+}
+
 @media only screen and (max-width: 768px) {
 	.container {
 		row-gap: 10px;
